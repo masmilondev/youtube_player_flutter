@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "253995073717",
+    "project_id": "fir-fcc26",
+    "storage_bucket": "fir-fcc26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253995073717:android:9d8a50066909ae0f9f3efc",
+        "android_client_info": {
+          "package_name": "com.braintech.youtube"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ7WZ-8rCS6hKQgAcHdSvhdnlxUD8pE_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
