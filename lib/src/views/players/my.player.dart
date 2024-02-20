@@ -47,10 +47,12 @@ class _MyPlayerState extends State<MyPlayer> {
       DataSnapshot dataSnapshot = event.snapshot;
       List values = dataSnapshot.value as List;
       _ids = values.map((e) => e.toString()).toList();
+
+      log(_ids.toString());
     });
   }
 
-  List<String> _ids = ['tSFEYR4yrSs'];
+  List<String> _ids = ["Q82Y-rLZ_1E"];
 
   @override
   void initState() {
@@ -73,15 +75,6 @@ class _MyPlayerState extends State<MyPlayer> {
     _playerState = PlayerState.unknown;
 
     readData();
-
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      var screen = MediaQuery.of(context).size;
-
-      setState(() {
-        _controller.fitHeight(screen);
-        _controller.fitWidth(screen);
-      });
-    });
   }
 
   void listener() {
